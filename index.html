@@ -16,30 +16,27 @@
 
     <!-- HEADER -->
     <header>
-        <div class="container d-flex inline-space-between">
+        <div class="container d-flex justify-space-between">
 
-        <a class="d-flex block-center gap10">
+        <a class="d-flex align-center gap10">
             <img src="https://t3.ftcdn.net/jpg/03/92/47/96/240_F_392479629_2gxpILAbPGdkN2BXQ2qJUJaiDTANV3MN.jpg" class="logo">
             <span style="color: var(--blackClr);">Davinder</span>
         </a>
 
         
 
-        <nav class="d-flex block-center" id="nav">
-            <ul id="nav-ul" class="fs-14">
-                <li class="about_me">
+        <nav class="d-flex align-center" id="nav">
+            <ul id="nav-ul" class="fs-14 d-flex align-center" >
+                <li>
                   <a href="#hero_section" class="active">About me</a></li>
-                <li><a href="#">Resume</a></li>
                 <li><a href="#project_section">Projects</a></li>
                 <li><a href="#skills_section">Skills</a></li>
                 <li><a href="#education_section">Education</a></li>
                 <li><a href="#certificate_section">Certificates</a></li>
                 <li><a href="#footer">Contact </a></li>
+                <li><a><ion-icon name="moon"></ion-icon> </a></li>
                </ul>
         </nav>
-
-
-        <ion-icon name="reorder-three-outline" class="box hamburger d-flex block-center" id="box"></ion-icon>
 
     </div>
 
@@ -48,11 +45,11 @@
 
 
     <!-- HERO SECTION -->
-    <section class="hero-section" id="hero_section">
-        <div class="container d-flex block-center gap20">
-                <div class="hero-img width-50">
+    <section class="hero-section d-flex justify-center" id="hero_section">
+        <div class="container d-flex align-center">
+
+                <div class="hero-img-div">
                     <img src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=600" class="hero-section-img">
-                    <!-- <img src="images/my-image.png"  class="hero-section-img"> -->
                 </div>
 
                 <div class="hero-content width-50 d-flex flex-coloumn">
@@ -60,7 +57,7 @@
                     <h1 class="hero-content-h1 fs-48">Davinder Kumar</h1>
                     <p class="hero-content-p fs-14" >Highly skilled and motivated Frontend Developer with  experience in designing and implementing responsive and interactive user interfaces.
                          Proficient in HTML, CSS, JavaScript,e Angular, React.</p>
-                    <div class="hero-content-btns">
+                    <div class="hero-content-btns d-flex gap10">
                         <button class="cv_download">Download CV</button>
                         <button class="contact_btn">Hire Me</button>
                     </div>
@@ -72,43 +69,45 @@
 
 
     <!-- SECTION PROJECTS -->
-<section class="projects-section d-flex flex-coloumn" id="project_section">
-    <div class="container">
+<section class="projects-section" id="project_section">
+    <div class="container d-flex gap20 flex-coloumn">
         <h2>Projects</h2>
-        <div class="all-projects">
-            <div class="project-1">
-                <ion-icon name="thunderstorm-outline" class="project-icon"></ion-icon>
-                <div class="width-90">
+        <div class="all-projects d-flex gap20">
+            <div class="project-1 project d-flex gap10">
+                <!-- <ion-icon name="thunderstorm-outline" class="project-icon"></ion-icon> -->
+                <ion-icon name="rainy"></ion-icon>
+                <div>
                     <a href="https://github.com/davinder22133/Weather-Project-" target="_blank">
                 <h4>
                      Weather Prediction
                    
-                </h4></a>
+                </h4>
+                </a>
                 <p class="project_p">The main purpose of a weather prediction project is to help users obtain reliable weather forecasts for their chosen locations. The project aims to provide users with critical information about temperature, humidity etc. </p>
             </div>
             </div>
 
-            <div class="project-2">
+            <div class="project-2 project d-flex">
                 <ion-icon name="clipboard-outline" class="project-icon"></ion-icon>
-                <div class="width-90">
+                <div>
                     <a href="https://github.com/davinder22133/ToDo-List-" target="_blank">
                 <h4>To Do List</h4> </a>
                 <p class="project_p">The main purpose of a todo web app is to help users organize their tasks, set priorities, and stay productive.It serves as a digital to-do list, enabling users to keep track of their pending tasks and mark them as completed. </p>
             </div>
             </div>
 
-            <div class="project-3">
-                <ion-icon name="musical-notes-outline" class="project-icon"></ion-icon>
-                <div class="width-90">
+            <div class="project-3 project d-flex">
+                <ion-icon name="musical-notes-outline"></ion-icon>
+                <div>
                     <a href="https://github.com/davinder22133/MUSIC_PLAYER_FRONTEND" target="_blank">
                 <h4>Music Web App </h4></a>
                 <p class="project_p">The main purpose of a music web app is to provide users with a platform to explore and enjoy music. It allows users to listen to their favorite songs, discover new music, create playlists.</p>
             </div>
             </div>
 
-            <div class="project-4">
-                <ion-icon name="fast-food-outline" class="project-icon"></ion-icon>
-                <div class="width-90">
+            <div class="project-4 project d-flex">
+                <ion-icon name="pizza"></ion-icon>
+                <div>
                     <a href="https://github.com/davinder22133/Restaurant-Management-System" target="_blank"> 
                 <h4>Restraunt Management System</h4></a>
                 <p class="project_p">The primary purpose of a restaurant management system is to facilitate seamless management of restaurant operations. It helps restaurant owners.</p>
