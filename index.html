@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="theme_icon_div">
+    
+    <ion-icon name="moon-outline" id="theme"></ion-icon>
+
+</div>
+    <div class="outer">
+
+    <!-- HEADER -->
+    <header>
+        <div class="container d-flex inline-space-between">
+
+        <a class="d-flex block-center gap10">
+            <img src="https://t3.ftcdn.net/jpg/03/92/47/96/240_F_392479629_2gxpILAbPGdkN2BXQ2qJUJaiDTANV3MN.jpg" class="logo">
+            <span style="color: var(--blackClr);">Davinder</span>
+        </a>
+
+        
+
+        <nav class="d-flex block-center" id="nav">
+            <ul id="nav-ul" class="fs-14">
+                <li class="about_me">
+                  <a href="#hero_section" class="active">About me</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#project_section">Projects</a></li>
+                <li><a href="#skills_section">Skills</a></li>
+                <li><a href="#education_section">Education</a></li>
+                <li><a href="#certificate_section">Certificates</a></li>
+                <li><a href="#footer">Contact </a></li>
+               </ul>
+        </nav>
+
+
+        <ion-icon name="reorder-three-outline" class="box hamburger d-flex block-center" id="box"></ion-icon>
+
+    </div>
+
+    </header>
+
+
+
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero_section">
+        <div class="container d-flex block-center gap20">
+                <div class="hero-img width-50">
+                    <img src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=600" class="hero-section-img">
+                    <!-- <img src="images/my-image.png"  class="hero-section-img"> -->
+                </div>
+
+                <div class="hero-content width-50 d-flex flex-coloumn">
+                    <h4 class="hero-content-h4 fs-16">Frontend Developer</h4>
+                    <h1 class="hero-content-h1 fs-48">Davinder Kumar</h1>
+                    <p class="hero-content-p fs-14" >Highly skilled and motivated Frontend Developer with  experience in designing and implementing responsive and interactive user interfaces.
+                         Proficient in HTML, CSS, JavaScript,e Angular, React.</p>
+                    <div class="hero-content-btns">
+                        <button class="cv_download">Download CV</button>
+                        <button class="contact_btn">Hire Me</button>
+                    </div>
+                </div>
+
+                
+        </div>
+    </section>
+
+
+    <!-- SECTION PROJECTS -->
+<section class="projects-section d-flex flex-coloumn" id="project_section">
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="all-projects">
+            <div class="project-1">
+                <ion-icon name="thunderstorm-outline" class="project-icon"></ion-icon>
+                <div class="width-90">
+                    <a href="https://github.com/davinder22133/Weather-Project-" target="_blank">
+                <h4>
+                     Weather Prediction
+                   
+                </h4></a>
+                <p class="project_p">The main purpose of a weather prediction project is to help users obtain reliable weather forecasts for their chosen locations. The project aims to provide users with critical information about temperature, humidity etc. </p>
+            </div>
+            </div>
+
+            <div class="project-2">
+                <ion-icon name="clipboard-outline" class="project-icon"></ion-icon>
+                <div class="width-90">
+                    <a href="https://github.com/davinder22133/ToDo-List-" target="_blank">
+                <h4>To Do List</h4> </a>
+                <p class="project_p">The main purpose of a todo web app is to help users organize their tasks, set priorities, and stay productive.It serves as a digital to-do list, enabling users to keep track of their pending tasks and mark them as completed. </p>
+            </div>
+            </div>
+
+            <div class="project-3">
+                <ion-icon name="musical-notes-outline" class="project-icon"></ion-icon>
+                <div class="width-90">
+                    <a href="https://github.com/davinder22133/MUSIC_PLAYER_FRONTEND" target="_blank">
+                <h4>Music Web App </h4></a>
+                <p class="project_p">The main purpose of a music web app is to provide users with a platform to explore and enjoy music. It allows users to listen to their favorite songs, discover new music, create playlists.</p>
+            </div>
+            </div>
+
+            <div class="project-4">
+                <ion-icon name="fast-food-outline" class="project-icon"></ion-icon>
+                <div class="width-90">
+                    <a href="https://github.com/davinder22133/Restaurant-Management-System" target="_blank"> 
+                <h4>Restraunt Management System</h4></a>
+                <p class="project_p">The primary purpose of a restaurant management system is to facilitate seamless management of restaurant operations. It helps restaurant owners.</p>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+
+
+
+<!-- SECTION SKILLS -->
+
+<section class="skills-section d-flex block-center inline-center" id="skills_section">
+    <div class="container d-flex flex-coloumn">
+       
+        <!-- <div style="display: flex; justify-content: flex-start; align-items: flex-start;"> -->
+        <h2>Skills</h2>
+    <!-- </div> -->
+        <div class="all-skills d-flex block-center inline-space-between">
+        <div class="skill_1">
+            
+            <div class="skill-logo-1" id="skill_1" onclick="play_animation(this)"> 
+                
+                <div class="value-container" id="value_container_1">
+                    
+                    <!-- <img src="images/html-5.png" class="img_logo" id="html_logo"> -->
+                   <p id="skill_1_p" class="display_int">0%</p>
+                </div>
+                
+            </div>
+            <p>HTML</p>
+        </div>
+        <div class="skill_2">
+            <div class="skill-logo-2" id="skill_2" onclick="play_animation(this)"> 
+             <!-- <img src="images/logo.jpg" class="img_logo" id="css_logo">  -->
+              <div class="value-container" id="value_container_2">
+                 
+                   <p id="skill_2_p" class="display_none">0%</p> </div>
+            </div>
+            <p>CSS</p>
+        </div>
+        <div class="skill_3" >
+            <div class="skill-logo-3" id="skill_3"  onclick="play_animation(this)"> 
+                <!-- <img src="images/logo.jpg" class="img_logo" id="js_logo">  -->
+                <div class="value-container" id="value_container_3">
+                   
+                     <p id="skill_3_p" class="display_none">0%</p> </div>
+            </div>
+            <p>JAVASCRIPT</p>
+        </div>
+        <div class="skill_4">
+            <div class="skill-logo-4" id="skill_4"   onclick="play_animation(this)"> 
+                <!-- <img src="images/logo.jpg" class="img_logo" id="python_logo">  -->
+                <div class="value-container" id="value_container_4">
+                   
+                     <p id="skill_4_p" class="display_none">0%</p> </div>
+            </div>
+            <p>PYTHON</p>
+        </div>
+        <div class="skill_5"></div>
+        <div class="skill_6"></div>
+    </div>
+    </div>
+
+</section>
+
+
+<!-- SECTION EDUCATION -->
+<section class="education" id="education_section">
+    <div class="container">
+        <div style="width: 100%;">
+            <h2>Education</h2></div>
+       
+<div class="table_div">
+
+           <table>
+    <thead>
+      <tr>
+        <th>Degree/Certificates</th>
+        <th>Institute/Board</th>
+        <th>CGPA/Percentage</th>
+        <th>Year</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>B.Tech </td>
+        <td>Guru Nanak Dev Engineering College</td>
+        <td>8.08(Upto 5th
+Sem.)
+</td>
+        <td>2019-2023
+</td>
+      </tr>
+      <tr>
+        <td>12th </td>
+        <td>S.A.N Jain Senior Secondary School
+(PSEB)
+</td>
+        <td>84%</td>
+        <td>2018-2019
+</td>
+      </tr>
+      <tr>
+        <td>10th</td>
+        <td>Shri Bhawani Model High School
+(PSEB)</td>
+        <td>78%</td>
+        <td>2016-2017</td>
+      </tr>
+    
+    </tbody>
+    </table>
+</div>
+    </div>
+</section>
+
+
+<!-- SECTION CERTIFICATIONS -->
+<section class="certifications" id="certificate_section">
+    <div class="container d-flex flex-coloumn inline-center">
+        <h2>Certifications</h2>
+        <div class="all-certificates d-flex inline-center">
+            <a  target="_blank" class="first-certificate d-flex block-center inline-center" href="https://ninjasfiles.s3.amazonaws.com/certificate1835338a33f54bc8c5e1d6b3667fabe5ae3aab4.pdf">
+               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/306px-ISO_C%2B%2B_Logo.svg.png?20170928190710" class="certificate-img">
+                <h4>Introduction To C++</h4>
+                <p>From Coding Ninjas</p>
+            </a>
+            <a  target="_blank" href="https://ninjasfiles.s3.amazonaws.com/certificate18353372bffcce85c2bb27b818f3a9d40790ce2.pdf" class="second-certificate d-flex block-center inline-center">
+               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Data_icon_coloured.svg/512px-Data_icon_coloured.svg.png?20230502065032" class="certificate-img">
+                <h4>Data Structure  </h4>
+                <p>From Coding Ninjas</p>
+            </a>
+            <a target="_blank" href="https://drive.google.com/file/d/1BNFWVORHUIyo1Mqr_s0BmV9sWVavvJCk/view?usp=sharing" class="third-certificate d-flex block-center inline-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/115px-Python-logo-notext.svg.png?20220821155029" class="certificate-img">
+                <h4>Python</h4>
+                <p>Spic Centre of Excellence</p>
+            </a>
+            <a target="_blank" href="https://www.udemy.com/certificate/UC-29fbd636-7cc8-4206-8b20-fe001e70e24c/" class="fourth-certificate d-flex block-center inline-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Progressive_enhancement_web_design_pyramid_%28HTML%2C_CSS%2C_JS%29.svg/346px-Progressive_enhancement_web_design_pyramid_%28HTML%2C_CSS%2C_JS%29.svg.png?20211027190734" class="certificate-img">
+                <h4>Web Development</h4>
+                <p>From Udemy</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+
+<footer id="footer d-flex align-items inline-center">
+    <div class="container d-flex inline-space-between block-center">
+         <div class="social-links d-flex block-center gap20">
+           <a href="https://github.com/davinder22133" target="_blank" class="social_contacts"> <ion-icon name="logo-github" class="social-icons"></ion-icon> </a>
+           <a target="_blank" href="https://www.linkedin.com/in/davinder-kumar-656586232/" class="social_contacts"> <ion-icon name="logo-linkedin" class="social-icons"></ion-icon></a>
+           <a target="_blank" href="mailto:meetdavinderkumar@gmail.com" class="social_contacts"> <ion-icon name="mail-outline" class="social-icons"></ion-icon></a>
+         </div> 
+         <div class="copyright">
+            <p>© 2023 All rights reserved.</p>
+         </div>  
+    </div>
+</footer>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+</body>
+
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+</html>
